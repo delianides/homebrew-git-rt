@@ -1,25 +1,25 @@
 class GitRt < Formula
   desc "A real-time terminal dashboard for git changes"
   homepage "https://github.com/delianides/git-rt"
-  version "1.0.2"
+  version "1.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/delianides/git-rt/releases/download/v1.0.2/git-rt-aarch64-apple-darwin.tar.xz"
-      sha256 "4e29c54a6323699c67aa20dc393ca641befaf6b4bb984822931766eaad1e126a"
+      url "https://github.com/delianides/git-rt/releases/download/v1.0.3/git-rt-aarch64-apple-darwin.tar.xz"
+      sha256 "634dee0b422afa8fae96bed0f9a587dc02bd173b9a349607d318af913e168124"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/delianides/git-rt/releases/download/v1.0.2/git-rt-x86_64-apple-darwin.tar.xz"
-      sha256 "54186fbb8b5986d2a8e0363e408ab9f4c3c94dd8d3424229b0d46f2ac27eb84a"
+      url "https://github.com/delianides/git-rt/releases/download/v1.0.3/git-rt-x86_64-apple-darwin.tar.xz"
+      sha256 "fb2b2ac9d7f768129f268e530707be4f825ebf62a51fbeca17889d0fdce5f08a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/delianides/git-rt/releases/download/v1.0.2/git-rt-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "7fa8d11ea02fcc04e585ef7eae42d046f55232bfa955f427870f8a5473e939e9"
+      url "https://github.com/delianides/git-rt/releases/download/v1.0.3/git-rt-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "cbc160aa9d7a0c18ccf54eda2fdd53e1d7a6f74d9efb9fa0c95a84187118278d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/delianides/git-rt/releases/download/v1.0.2/git-rt-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "bf4da3c282fb0d0b0cd654decbb15dc42a24ecbac3f653d2013eac339c71aee5"
+      url "https://github.com/delianides/git-rt/releases/download/v1.0.3/git-rt-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "3cb51bc7cbcad306538a46ee58352edf1aac5849ef90c35d002a81d15022ed24"
     end
   end
   license "MIT"
